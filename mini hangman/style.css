@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background: #f8f8f8;
+}
+
+h1 {
+  color: #333;
+}
+
+.kelime {
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+}
+
+.kelime span {
+  font-size: 2rem;
+  border-bottom: 3px solid #333;
+  width: 30px;
+  height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.yanlislar {
+  color: red;
+  font-size: 1.2rem;
+}
+.mesaj {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: green;
+}
+.hak {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
